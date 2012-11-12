@@ -1,0 +1,8 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Dia Temp Files
+*.dia~
+
+#git ignores the .git folder already
