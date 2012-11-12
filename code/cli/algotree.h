@@ -1,6 +1,6 @@
 #ifndef PARAM_H_INCLUDED
 #define PARAM_H_INCLUDED
-
+//
 /*Definitions regarding the algorithm tree that gets built up (and manipulated in gui mode)*/
 
 class Algotree

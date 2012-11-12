@@ -1,6 +1,6 @@
 #ifndef MODULE_H_INCLUDED
 #define MODULE_H_INCLUDED
-
+//
 /*Definitions regarding the base Module every other implements*/
 
 class Module
