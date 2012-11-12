@@ -1,6 +1,8 @@
 #ifndef IO_H_INCLUDED
 #define IO_H_INCLUDED
 
+/*Definitions regarding Input/Output; affected by -w* compiler flags*/
+
 class IO
 {
 private:

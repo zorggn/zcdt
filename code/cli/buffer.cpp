@@ -1,1 +1,2 @@
-//implementation of buffer.h
+//implementation of the Atom buffer
+#include "buffer.h";

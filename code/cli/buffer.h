@@ -1,6 +1,8 @@
 #ifndef BUFFER_H_INCLUDED
 #define BUFFER_H_INCLUDED
 
+/*Definitions regarding the databuffers that hold Atoms*/
+
 class Buffer
 {
 private:

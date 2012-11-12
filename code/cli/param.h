@@ -1,6 +1,8 @@
 #ifndef PARAM_H_INCLUDED
 #define PARAM_H_INCLUDED
 
+/*Definitions regarding a higher-level container that can hold not just Atoms, necessary for the dynamically-evaluable algorithm tree*/
+
 enum ParamType {  
 	Atom, Module*, Buffer*
 };
