@@ -4,7 +4,7 @@
 /*Definitions regarding a higher-level container that can hold not just Atoms, necessary for the dynamically-evaluable algorithm tree*/
 
 enum ParamType {  
-	Atom, Module*, Buffer*
+	t_Atom, t_pModule, t_pBuffer
 };
 
 struct Param

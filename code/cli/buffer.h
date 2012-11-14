@@ -6,18 +6,22 @@
 class Buffer
 {
 private:
-	int   length;
+	uint   length;
+	uint   index;
 	Atom* buffer;
 protected:
 	//
 public:
 	static void swapBuffers(Buffer*,Buffer*);
-	Buffer(int);
+	Buffer(uint);
 	~Buffer();
 	Atom getAtom();
+	Atom getAtom(uint);
 	void setAtom(Atom*);
-	void setLength(int);
-	int  getLength();
+	uint getLength();
+	void setLength(uint);
+	uint getIndex();
+	void setIndex(uint);
 };
 
 #endif // BUFFER_H_INCLUDED

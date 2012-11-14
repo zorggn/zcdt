@@ -13,7 +13,7 @@ protected:
 	Module* prev;
 	Module* next;
 public:
-	Algotree(arguments);
+	Algotree(Param***);
 	~Algotree();
 	Module* current;
 	void InsertBefore(Module*);

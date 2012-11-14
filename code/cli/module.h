@@ -8,15 +8,17 @@ class Module
 private:
 	//
 protected:
-	int argc
-	Module** argv;
+	uint argc
+	Param** argv;
 	clock_t exec_ticks;
 public:
-	Module(arguments);
+	Module(uint, Param***); //implies we build up the trees bottom-to-top.
 	~Module();
-	clock_t getSpeed();
-	virtual void Process(Param**) =0;
-	virtual void Revert(Param**) =0;
+	virtual clock_t getSpeed();
+	virtual void Process(Param***) =0;
+	virtual void Revert(Param***) =0;
+	//getArg useless at first thought
+	//void setArg(uint,Param**);
 };
 
 #endif // MODULE_H_INCLUDED
