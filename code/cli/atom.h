@@ -1,6 +1,6 @@
 #ifndef ATOM_H_INCLUDED
 #define ATOM_H_INCLUDED
-//
+
 /*Definitions regarding the base datatype the application uses*/
 
 //easier to calculate for cycle lengths like this.

@@ -10,6 +10,7 @@ acceptable parameters:
 
 	-g				-	gui mode (?)
 	-c				-	cli mode (default, unnecessary to add)
+	-s				-	sound mode (after the processing finished, it gets copied into BASS' buffer and played back; underruns may occur, as well as overruns)
 
 	// forwarded to IO
 
@@ -29,7 +30,7 @@ acceptable parameters:
 
 int main(int argc, char*[] argv){
 
+	//ide jönnének az argumentum parseoló dolgok esetleg
+
 	return 0;
 };
-
-//
